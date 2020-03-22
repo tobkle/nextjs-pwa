@@ -1,11 +1,9 @@
 import Head from 'next/head'
+import Nav from '../components/nav'
 
 const Home = () => (
   <div className="container">
-    <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+    <Nav />
 
     <main>
       <h1 className="title">
